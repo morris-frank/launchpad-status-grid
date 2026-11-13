@@ -1,0 +1,330 @@
+{
+  "at": "2026-11-02T14:02:11Z",
+  "caller": "ada@example.com",
+  "desk": {
+    "Subscriptions": [
+      {
+        "Name": "max",
+        "Owner": "",
+        "Agent": "",
+        "State": "",
+        "Measured": true,
+        "Spent": false,
+        "FiveHour": {
+          "Known": true,
+          "Remaining": 0.7
+        },
+        "SevenDay": {
+          "Known": true,
+          "Remaining": 0.4
+        }
+      },
+      {
+        "Name": "ada's",
+        "Owner": "ada@example.com",
+        "Agent": "",
+        "State": "",
+        "Measured": true,
+        "Spent": true,
+        "FiveHour": {
+          "Known": true,
+          "Remaining": 0
+        },
+        "SevenDay": {
+          "Known": false,
+          "Remaining": 0
+        }
+      }
+    ],
+    "Burn": {
+      "Known": true,
+      "LastFiveHours": 700,
+      "MedianFiveHours": 500,
+      "Ratio": 1.4
+    }
+  },
+  "snapshot": {
+    "Board": {
+      "Repos": [
+        {
+          "Name": "mario",
+          "Path": "/private/worktree",
+          "Remote": null,
+          "DefaultBranch": "",
+          "Branches": [
+            {
+              "Name": "feat/a",
+              "IsDefault": false,
+              "Head": {
+                "Subject": "",
+                "At": "0001-01-01T00:00:00Z"
+              },
+              "Upstream": null,
+              "Worktree": {
+                "Path": "/private/worktree/a",
+                "Main": false,
+                "Dirty": 0,
+                "DirtyKnown": false,
+                "Locked": false
+              },
+              "Merged": false,
+              "PR": null,
+              "Agents": [
+                {
+                  "harness": "claude-code",
+                  "sessionId": "private-session-id",
+                  "Path": "/private/worktree",
+                  "LastWrite": "2026-11-02T14:00:11Z",
+                  "Live": 1,
+                  "Dir": "/private/worktree/sub",
+                  "ConfigDir": "/private/claude-profile",
+                  "ContextTokens": 0
+                }
+              ]
+            },
+            {
+              "Name": "feat/b",
+              "IsDefault": false,
+              "Head": {
+                "Subject": "",
+                "At": "0001-01-01T00:00:00Z"
+              },
+              "Upstream": null,
+              "Worktree": {
+                "Path": "/private/worktree/b",
+                "Main": false,
+                "Dirty": 0,
+                "DirtyKnown": false,
+                "Locked": false
+              },
+              "Merged": false,
+              "PR": null,
+              "Agents": [
+                {
+                  "harness": "claude-code",
+                  "sessionId": "private-session-id",
+                  "Path": "/private/worktree",
+                  "LastWrite": "2026-11-02T14:00:11Z",
+                  "Live": 0,
+                  "Dir": "/private/worktree/sub",
+                  "ConfigDir": "/private/claude-profile",
+                  "ContextTokens": 0
+                }
+              ]
+            }
+          ],
+          "PullRequests": null,
+          "Activity": {
+            "Commits": null,
+            "Last": "0001-01-01T00:00:00Z"
+          },
+          "Err": null
+        }
+      ],
+      "Sources": [
+        {
+          "Name": "agents",
+          "RefreshedAt": "2026-11-02T14:02:11Z",
+          "Skipped": false,
+          "Err": null
+        }
+      ]
+    },
+    "Digest": {
+      "finished": {
+        "text": "",
+        "tasks": 0,
+        "provenance": {
+          "claim": ""
+        }
+      },
+      "open": {
+        "text": "",
+        "tasks": 0,
+        "provenance": {
+          "claim": ""
+        }
+      },
+      "inputHash": "",
+      "composedAt": "0001-01-01T00:00:00Z"
+    },
+    "Agents": {
+      "/private/worktree/a": [
+        {
+          "harness": "claude-code",
+          "sessionId": "private-session-id",
+          "Path": "/private/worktree",
+          "LastWrite": "2026-11-02T14:00:11Z",
+          "Live": 1,
+          "Dir": "/private/worktree/sub",
+          "ConfigDir": "/private/claude-profile",
+          "ContextTokens": 0
+        }
+      ]
+    },
+    "Tasks": {
+      "Tasks": [
+        {
+          "ID": "t1",
+          "Title": "a task",
+          "Created": "2026-11-02T13:02:11Z",
+          "State": 1,
+          "PullRequest": "",
+          "Origin": "",
+          "Prompt": ""
+        }
+      ],
+      "StateErr": null
+    },
+    "Schedules": [
+      {
+        "Task": "t1",
+        "Title": "a task",
+        "When": "@daily",
+        "Next": "2026-11-03T00:02:11Z",
+        "Forgotten": false
+      }
+    ],
+    "Questions": [
+      {
+        "ID": "q1",
+        "Scope": "mario/feat-a",
+        "Asked": "2026-11-02T12:50:11Z",
+        "Text": "Merge first?",
+        "Options": [
+          "yes",
+          "no"
+        ],
+        "Kind": "choice",
+        "Command": "private access command",
+        "Inferred": true,
+        "Session": "private-session-id",
+        "Live": 2,
+        "Gone": true
+      }
+    ],
+    "Launches": null,
+    "Pacing": {
+      "Agents": 4,
+      "Reason": "the burn",
+      "BurnKnown": true,
+      "BurnRatio": 1.4,
+      "Floor": {
+        "Read": true,
+        "Held": false,
+        "Share": 0.1,
+        "Left": 0.6,
+        "Resets": "2026-11-02T17:02:11Z"
+      }
+    },
+    "Burn": {
+      "Known": true,
+      "Ratio": 1.4,
+      "PacingKnown": false,
+      "Pacing": {
+        "Held": 0,
+        "HoldReason": "",
+        "Boosted": 0,
+        "BoostAgents": 0
+      },
+      "Hourly": [
+        10,
+        0,
+        30
+      ],
+      "At": "2026-11-02T14:02:11Z",
+      "MedianFiveHours": 500
+    },
+    "LoopPacing": {
+      "Held": 1800000000000,
+      "HoldReason": "the operator held it",
+      "Boosted": 0,
+      "BoostAgents": 0
+    },
+    "LoopStep": {
+      "Phase": "supervising",
+      "Until": "0001-01-01T00:00:00Z",
+      "Slots": {
+        "Idle": "plan",
+        "Running": 3,
+        "Cap": 4,
+        "Exits": 0,
+        "Waiting": 0,
+        "Until": "0001-01-01T00:00:00Z",
+        "Detail": "",
+        "Left": [
+          {
+            "Why": "blocked",
+            "N": 2
+          }
+        ],
+        "Closed": 1
+      }
+    },
+    "Schedule": 1,
+    "Plan": "# PLAN",
+    "Upcoming": [
+      {
+        "Branch": "feat/c",
+        "Lane": "W",
+        "Request": "do c",
+        "Repos": [
+          "mario"
+        ]
+      }
+    ],
+    "PlanOrder": [
+      {
+        "Lane": "W",
+        "ID": "W1",
+        "Task": "type the data",
+        "State": "in-flight",
+        "Behind": [
+          "F1"
+        ],
+        "Repos": [
+          "mario"
+        ],
+        "Note": "",
+        "Pulls": null
+      },
+      {
+        "Lane": "W",
+        "ID": "W2",
+        "Task": "deploy the data",
+        "State": "parked",
+        "Behind": null,
+        "Repos": [
+          "mario"
+        ],
+        "Note": "your hands: one mise run deploy",
+        "Pulls": null
+      },
+      {
+        "Lane": "W",
+        "ID": "W0",
+        "Task": "name the data",
+        "State": "merged",
+        "Behind": null,
+        "Repos": [
+          "mario"
+        ],
+        "Note": "#1677",
+        "Pulls": [
+          {
+            "Ref": "#1677",
+            "URL": "https://github.com/Soilytix/mario/pull/1677"
+          }
+        ]
+      }
+    ],
+    "Quota": "",
+    "Explanations": null,
+    "Chat": {
+      "Known": false,
+      "Polling": false,
+      "Why": ""
+    },
+    "Failed": {}
+  }
+}

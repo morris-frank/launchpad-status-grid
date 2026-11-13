@@ -1,0 +1,43 @@
+# mise is the single source of truth for runtimes and repository tools, as in
+# soilytix/mario. Exact resolved versions are recorded in the committed mise.lock.
+min_version = "2026.7.18"
+
+[settings]
+lockfile = true
+
+[tools]
+go = "1.26.11"
+golangci-lint = "2.12.2"
+
+[env]
+# One lint cache per checkout, so parallel worktrees never share stale paths.
+GOLANGCI_LINT_CACHE = "{{config_root}}/.cache/golangci-lint"
+
+[hooks]
+postinstall = ["go mod download"]
+
+[tasks.build]
+description = "Build the binary into dist"
+# -s -w drops the symbol table and DWARF; tracebacks still name functions and
+# lines (pclntab is kept). LSG_VERSION stamps --version; unset, it is "dev".
+run = "mkdir -p dist && go build -trimpath -ldflags=\"-s -w${LSG_VERSION:+ -X main.version=$LSG_VERSION}\" -o dist/ ./cmd/launchpad-status-grid"
+alias = "b"
+
+[tasks.check]
+description = "Run the complete definition of done"
+run = [
+  "golangci-lint fmt --diff",
+  "golangci-lint run ./...",
+  "go mod tidy && git diff --exit-code -- go.mod go.sum",
+  "go test -race -trimpath ./...",
+  # The device, audio and media-key halves are darwin with cgo and are never
+  # linked on a Linux checker; this proves the rest of the darwin build, and
+  # that nothing outside those three adapters needs cgo.
+  "CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -trimpath -o /dev/null ./cmd/launchpad-status-grid",
+  "mise run build",
+]
+alias = "c"
+
+[tasks.run]
+description = "Draw the board in the terminal (MARIO_WORKER_URL names the worker)"
+run = "go run ./cmd/launchpad-status-grid --preview"

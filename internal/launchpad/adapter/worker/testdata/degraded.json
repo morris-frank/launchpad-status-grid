@@ -1,0 +1,180 @@
+{
+  "at": "2026-11-02T14:02:11Z",
+  "caller": "ada@example.com",
+  "desk": {
+    "Subscriptions": [
+      {
+        "Name": "max",
+        "Owner": "",
+        "Agent": "",
+        "State": "unmeasured",
+        "Measured": false,
+        "Spent": false,
+        "FiveHour": {
+          "Known": false,
+          "Remaining": 0
+        },
+        "SevenDay": {
+          "Known": false,
+          "Remaining": 0
+        }
+      }
+    ],
+    "Burn": {
+      "Known": false,
+      "LastFiveHours": 0,
+      "MedianFiveHours": 0,
+      "Ratio": 0
+    }
+  },
+  "snapshot": {
+    "Board": {
+      "Repos": null,
+      "Sources": null
+    },
+    "Digest": {
+      "finished": {
+        "text": "",
+        "tasks": 0,
+        "provenance": {
+          "claim": ""
+        }
+      },
+      "open": {
+        "text": "",
+        "tasks": 0,
+        "provenance": {
+          "claim": ""
+        }
+      },
+      "inputHash": "",
+      "composedAt": "0001-01-01T00:00:00Z"
+    },
+    "Agents": null,
+    "Tasks": {
+      "Tasks": null,
+      "StateErr": null
+    },
+    "Schedules": [
+      {
+        "Task": "t1",
+        "Title": "a task",
+        "When": "@daily",
+        "Next": "2026-11-03T00:02:11Z",
+        "Forgotten": false
+      }
+    ],
+    "Questions": null,
+    "Launches": null,
+    "Pacing": {
+      "Agents": 0,
+      "Reason": "",
+      "BurnKnown": false,
+      "BurnRatio": 0,
+      "Floor": {
+        "Read": false,
+        "Held": false,
+        "Share": 0,
+        "Left": 0,
+        "Resets": "0001-01-01T00:00:00Z"
+      }
+    },
+    "Burn": {
+      "Known": false,
+      "Ratio": 0,
+      "PacingKnown": false,
+      "Pacing": {
+        "Held": 0,
+        "HoldReason": "",
+        "Boosted": 0,
+        "BoostAgents": 0
+      },
+      "Hourly": null,
+      "At": "0001-01-01T00:00:00Z",
+      "MedianFiveHours": 0
+    },
+    "LoopPacing": {
+      "Held": 1800000000000,
+      "HoldReason": "the operator held it",
+      "Boosted": 0,
+      "BoostAgents": 0
+    },
+    "LoopStep": {
+      "Phase": "sleeping",
+      "Until": "2026-11-02T14:22:11Z",
+      "Slots": {
+        "Idle": "",
+        "Running": 9,
+        "Cap": 9,
+        "Exits": 0,
+        "Waiting": 0,
+        "Until": "0001-01-01T00:00:00Z",
+        "Detail": "",
+        "Left": null,
+        "Closed": 0
+      }
+    },
+    "Schedule": 0,
+    "Plan": "# PLAN",
+    "Upcoming": null,
+    "PlanOrder": [
+      {
+        "Lane": "W",
+        "ID": "W1",
+        "Task": "type the data",
+        "State": "in-flight",
+        "Behind": [
+          "F1"
+        ],
+        "Repos": [
+          "mario"
+        ],
+        "Note": "",
+        "Pulls": null
+      },
+      {
+        "Lane": "W",
+        "ID": "W2",
+        "Task": "deploy the data",
+        "State": "parked",
+        "Behind": null,
+        "Repos": [
+          "mario"
+        ],
+        "Note": "your hands: one mise run deploy",
+        "Pulls": null
+      },
+      {
+        "Lane": "W",
+        "ID": "W0",
+        "Task": "name the data",
+        "State": "merged",
+        "Behind": null,
+        "Repos": [
+          "mario"
+        ],
+        "Note": "#1677",
+        "Pulls": [
+          {
+            "Ref": "#1677",
+            "URL": "https://github.com/Soilytix/mario/pull/1677"
+          }
+        ]
+      }
+    ],
+    "Quota": "",
+    "Explanations": null,
+    "Chat": {
+      "Known": false,
+      "Polling": false,
+      "Why": ""
+    },
+    "Failed": {
+      "Agents": "open /private/data: permission denied",
+      "Pacing": "open /private/data: permission denied",
+      "Questions": "open /private/data: permission denied",
+      "Upcoming": "open /private/data: permission denied"
+    },
+    "TaskStateErr": "open /private/data: permission denied"
+  }
+}
