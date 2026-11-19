@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // MediaKey is one of the system media keys a pad can press.

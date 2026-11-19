@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // QuotaWindow is which of a subscription's windows a QuotaWindowControl draws.

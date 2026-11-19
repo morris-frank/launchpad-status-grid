@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/worker"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/worker"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // fakeWorker answers /v1/board with a fixture's data and /v1/session-list

@@ -8,9 +8,9 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/tui"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/tui"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 type screen struct {

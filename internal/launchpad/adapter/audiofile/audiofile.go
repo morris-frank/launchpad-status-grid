@@ -12,8 +12,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/spectrum"
-	launchpadapp "github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/spectrum"
+	launchpadapp "github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // Levels plays the recording against the clock from the moment it was opened,

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // BurnControl is the five-hour burn against this machine's own median, as a

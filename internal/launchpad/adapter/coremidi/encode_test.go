@@ -3,7 +3,7 @@ package coremidi
 import (
 	"testing"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // A SysEx body may not contain a byte with the top bit set — the device reads

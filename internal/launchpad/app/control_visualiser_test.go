@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 type fixedLevels struct{ l app.Loudness }

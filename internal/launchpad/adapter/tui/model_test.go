@@ -8,8 +8,8 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // named is a control that says the same sentence about every pad, so a test can

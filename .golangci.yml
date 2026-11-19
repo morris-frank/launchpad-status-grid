@@ -31,9 +31,9 @@ linters:
           files:
             - "**/internal/launchpad/domain/**"
           deny:
-            - pkg: "github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+            - pkg: "github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
               desc: "domain is below app"
-            - pkg: "github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter"
+            - pkg: "github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter"
               desc: "domain imports no adapter"
             - pkg: "charm.land"
               desc: "no terminal library in domain"
@@ -43,7 +43,7 @@ linters:
           files:
             - "**/internal/launchpad/app/**"
           deny:
-            - pkg: "github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter"
+            - pkg: "github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter"
               desc: "app declares ports; adapters implement them"
             - pkg: "charm.land"
               desc: "no terminal library in app"

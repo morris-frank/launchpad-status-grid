@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/audiofile"
-	launchpadapp "github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/audiofile"
+	launchpadapp "github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // fakeCapture hands over whatever samples it holds, as the ring buffer does.

@@ -3,7 +3,7 @@ package tui
 import (
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // WithClock overrides the model's clock, so a test can assert on a frame that

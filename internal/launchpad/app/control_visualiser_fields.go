@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // A visualiser mode is one way of turning a reading into a picture. A press on

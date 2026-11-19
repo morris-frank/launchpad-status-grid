@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 type quotaSource struct {

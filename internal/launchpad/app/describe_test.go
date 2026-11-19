@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // talker is a control that says where it was asked about, so a test can prove

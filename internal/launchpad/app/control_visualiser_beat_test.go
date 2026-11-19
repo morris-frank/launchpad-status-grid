@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // A kick at 128 BPM, sampled at the frame rate with a frame's jitter and with

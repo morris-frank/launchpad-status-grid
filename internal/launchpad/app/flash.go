@@ -3,7 +3,7 @@ package app
 import (
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // Flash is a notification the board draws: the whole surface, chrome

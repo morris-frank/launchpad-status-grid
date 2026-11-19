@@ -11,8 +11,8 @@ import (
 	"math"
 	"math/cmplx"
 
-	launchpadapp "github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	launchpadapp "github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // Window is how many samples one reading looks at: ~23ms at 44.1kHz, short

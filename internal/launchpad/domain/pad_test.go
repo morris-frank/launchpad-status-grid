@@ -3,7 +3,7 @@ package domain_test
 import (
 	"testing"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // The device numbering is the one fact in this package that was measured

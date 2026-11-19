@@ -28,11 +28,11 @@ import (
 
 	tea "charm.land/bubbletea/v2"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/coremidi"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/mediakeys"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/tui"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/worker"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/coremidi"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/mediakeys"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/tui"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/worker"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // version is stamped by the build (-X main.version=…); "dev" otherwise.

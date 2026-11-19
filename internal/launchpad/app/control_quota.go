@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // QuotaFeed is the worker's subscriptions and burn readings (rosalina account show), read once and

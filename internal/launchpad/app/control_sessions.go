@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // How recently a session has to have written to be drawn as live.

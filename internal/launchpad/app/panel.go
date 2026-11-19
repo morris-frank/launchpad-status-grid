@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // Control is a widget that occupies a rectangle of the grid.

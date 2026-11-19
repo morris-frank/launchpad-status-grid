@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/audiofile"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/liveaudio"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/audiofile"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/liveaudio"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // The environment, named as mario's desk client names it, so an operator who

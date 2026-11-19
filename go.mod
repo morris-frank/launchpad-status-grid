@@ -1,4 +1,4 @@
-module github.com/Soilytix/launchpad-status-grid
+module github.com/morris-frank/launchpad-status-grid
 
 go 1.26.0
 

@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // Loudness is one reading of a sound: how loud it is overall and how that

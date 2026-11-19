@@ -1,6 +1,6 @@
 package coremidi
 
-import "github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+import "github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 
 // This file has no build tag, on purpose. Everything in it is arithmetic over
 // bytes, so it compiles and is tested on the Linux runner that never sees

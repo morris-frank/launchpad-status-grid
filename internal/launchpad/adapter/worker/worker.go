@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // prefix is what every route of the worker's API sits under.

@@ -30,8 +30,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/adapter/spectrum"
-	launchpadapp "github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/adapter/spectrum"
+	launchpadapp "github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // Source names a live input.

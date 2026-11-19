@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/domain"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/domain"
 )
 
 // Mirror is one board on several surfaces at once: every frame goes to all of

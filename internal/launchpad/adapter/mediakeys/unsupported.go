@@ -7,7 +7,7 @@ import (
 	"errors"
 	"runtime"
 
-	"github.com/Soilytix/launchpad-status-grid/internal/launchpad/app"
+	"github.com/morris-frank/launchpad-status-grid/internal/launchpad/app"
 )
 
 // This is what every build that is not macOS-with-cgo links. It says it is
